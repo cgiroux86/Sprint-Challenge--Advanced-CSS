@@ -17,8 +17,11 @@
         width:40%;
         margin: 0 auto;
         font-size: 1.4rem;
-        justify-content: space-around;
+        justify-content: space-evenly;
         .anchorMixin();
+        @media @phone {
+            width: 60%;
+        }
         a {
             text-decoration: none;
             color: @shuttle-gray;

@@ -186,10 +186,15 @@ p {
   width: 40%;
   margin: 0 auto;
   font-size: 1.4rem;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-bottom: 2%;
   color: #5E6164;
   text-decoration: none;
+}
+@media ( max-width: 500px ) {
+  .navigation .anchor {
+    width: 60%;
+  }
 }
 .navigation .anchor a {
   text-decoration: none;
