@@ -90,8 +90,9 @@
       .btn {
         .btn-styling(@porcelain; @btn-bg-color);
         &:hover {
-          background: red;
-          color: lime;
+          animation: pulse 5s infinite;
+         background: red;
+         color: lime;
         }
         @media @phone {
           width: 100%;
